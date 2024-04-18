@@ -81,34 +81,28 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !*
-✪ sᴀʏᴀ ᴋᴀᴢᴜ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://telegra.ph//file/58ab86e8fcb5e0c748165.jpg)
+*ʜɪ! {} !*
+sᴀʏᴀ ᴋᴀᴢᴜ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://mallucampaign.in/images/img_1712864065.jpg)
 ────────────────────────
-◈ *ᴜᴘᴛɪᴍᴇ:* `{}`
-◈ `{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
+*ᴜᴘᴛɪᴍᴇ:* `{}`
+`{}` *ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ * `{}` *ɢʀᴏᴜᴘ*
 ────────────────────────
-⬝ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ʙᴀɴᴛᴜᴀɴ
+/help ᴜɴᴛᴜᴋ ʙᴀɴᴛᴜᴀɴ
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕️", url="t.me/KazuxxRobot?startgroup=true"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/kazusupportgrp"
-        ),
-        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/KazuxProjects"
+            text="➕️ ᴀᴅᴅ ᴍᴇ", url="t.me/KazuxxRobot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴏᴡɴᴇʀ", url="t.me/inikazu"
+            text="ᴏᴡɴᴇʀ", url="t.me/Usern4meDoesNotExist404"
         ),
     ],
     [
-        InlineKeyboardButton(text="🗒️ʙᴀɴᴛᴜᴀɴ", callback_data="hikari_support"
+        InlineKeyboardButton(text="️ʙᴀɴᴛᴜᴀɴ", callback_data="hikari_support"
        ),
         InlineKeyboardButton(
             text="ᴅᴏɴᴀsɪ", callback_data="hikari_own"
@@ -120,12 +114,11 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-HIKARI_IMG = "https://telegra.ph/file/05c7982e106962b905ef4.jpg"
+HIKARI_IMG = "https://mallucampaign.in/images/img_1712864065.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @disinikazu \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """
+Hai, senang mendengar kamu ingin berdonasi!
+Anda dapat mendukung proyek ini dengan menghubungi @Usern4meDoesNotExist404 \ Dukungan tidak selalu bersifat finansial!  \ Mereka yang tidak dapat memberikan dukungan keuangan dipersilakan untuk membantu kami mengembangkan bot di ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -446,8 +439,8 @@ def hikari_about_callback(update, context):
         )
     elif query.data == "hikari_support":
         query.message.edit_text(
-            text="*📝 Bantuan Perintah Kazu*"
-            "\npilih tombol dibawah untuk melihat bantuan perintah Kazu.",
+            text="*📝 Bantuan Perintah*"
+            "\npilih tombol dibawah untuk melihat bantuan perintah",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -503,7 +496,7 @@ def hikari_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="**κ λ z υ**", url="t.me/disinikazu"),
+                    InlineKeyboardButton(text="**ᴏᴡɴᴇʀ**", url="t.me/Usern4meDoesNotExist404"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="hikari_back"),
