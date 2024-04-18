@@ -21,10 +21,10 @@ class Config(object):
     OWNER_USERNAME = "JustRex"
     SUPPORT_CHAT = "rexaprivateroom"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001432609692
+        -1001627039023
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001150905176
+        -1001627039023
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
